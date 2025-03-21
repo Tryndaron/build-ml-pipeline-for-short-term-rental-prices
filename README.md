@@ -8,28 +8,35 @@ In this project you will build such a pipeline.
 
 ## Table of contents
 
-- [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
-- [Preliminary steps](#preliminary-steps)
-  * [Fork the Starter Kit](#fork-the-starter-kit)
-  * [Create environment](#create-environment)
-  * [Get API key for Weights and Biases](#get-api-key-for-weights-and-biases)
-  * [Cookie cutter](#cookie-cutter)
-  * [The configuration](#the-configuration)
-  * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
-  * [Pre-existing components](#pre-existing-components)
-- [Instructions](#instructions)
-  * [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-  * [Data cleaning](#data-cleaning)
-  * [Data testing](#data-testing)
-  * [Data splitting](#data-splitting)
-  * [Train Random Forest](#train-random-forest)
-  * [Optimize hyperparameters](#optimize-hyperparameters)
-  * [Select the best model](#select-the-best-model)
-  * [Test](#test)
-  * [Visualize the pipeline](#visualize-the-pipeline)
-  * [Release the pipeline](#release-the-pipeline)
-  * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
-- [Cleaning up](#cleaning-up)
+- [Build an ML Pipeline for Short-Term Rental Prices in NYC](#build-an-ml-pipeline-for-short-term-rental-prices-in-nyc)
+  - [Table of contents](#table-of-contents)
+  - [Preliminary steps](#preliminary-steps)
+    - [Supported Operating Systems](#supported-operating-systems)
+    - [Python Requirement](#python-requirement)
+    - [Fork the Starter kit](#fork-the-starter-kit)
+    - [Create environment](#create-environment)
+    - [Get API key for Weights and Biases](#get-api-key-for-weights-and-biases)
+    - [Cookie cutter](#cookie-cutter)
+    - [The configuration](#the-configuration)
+    - [Running the entire pipeline or just a selection of steps](#running-the-entire-pipeline-or-just-a-selection-of-steps)
+    - [Pre-existing components](#pre-existing-components)
+  - [Instructions](#instructions)
+    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+  - [Data cleaning](#data-cleaning)
+    - [Data testing](#data-testing)
+    - [Data splitting](#data-splitting)
+    - [Train Random Forest](#train-random-forest)
+    - [Optimize hyperparameters](#optimize-hyperparameters)
+    - [Select the best model](#select-the-best-model)
+    - [Test](#test)
+    - [Visualize the pipeline](#visualize-the-pipeline)
+    - [Release the pipeline](#release-the-pipeline)
+    - [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
+  - [In case of errors](#in-case-of-errors)
+    - [Environments](#environments)
+    - [MLflow \& Wandb](#mlflow--wandb)
+  - [Links to the Solution](#links-to-the-solution)
+  - [License](#license)
 
 ## Preliminary steps
 
@@ -594,6 +601,11 @@ If you see the any error while running the command:
 
 Please, make sure all steps are using **the same** python version and that you have **conda installed**. Additionally, *mlflow* and *wandb* packages are crucial and should have the same version.
 
+
+## Links to the Solution
+
+Githublink: https://github.com/Tryndaron/build-ml-pipeline-for-short-term-rental-prices.git
+wandb link: https://wandb.ai/aaron-roggenland-mri-max-rubner-institut/nyc_airbnb/overview
 
 ## License
 
